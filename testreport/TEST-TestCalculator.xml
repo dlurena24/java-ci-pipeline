@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="LAPTOP-MFQJKMTG" name="TestCalculator" skipped="0" tests="8" time="0.178" timestamp="2021-09-02T03:31:22">
+  <properties>
+    <property name="ant.library.dir" value="C:\Users\Sgamo\Desktop\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib" />
+    <property name="java.specification.version" value="14" />
+    <property name="ant.project.name" value="Calculator" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.class.path" value="C:\Users\Sgamo\Desktop\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar;C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\bin;C:\Users\Sgamo\Desktop\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib\ant-launcher.jar;C:\Users\Sgamo\Desktop\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib\ant.jar;C:\Users\Sgamo\Desktop\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib\ant-junit.jar;C:\Users\Sgamo\Desktop\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib\ant-junit4.jar" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="user.variant" value="" />
+    <property name="java.vendor.url" value="https://java.oracle.com/" />
+    <property name="java.vm.specification.version" value="14" />
+    <property name="os.name" value="Windows 10" />
+    <property name="user.country" value="CR" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestCalculator skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\testreport\TEST-TestCalculator.xml crashfile=C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\junitvmwatcher914957648975059550.properties propsfile=C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\junit8057070200047599010.properties" />
+    <property name="jdk.debug" value="release" />
+    <property name="test.dir" value="C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\test" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\Users\Sgamo" />
+    <property name="user.language" value="es" />
+    <property name="eclipse.pdebuild.templates" value="C:\Users\Sgamo\Desktop\eclipse\plugins\org.eclipse.pde.build_3.10.800.v20200410-1419\templates" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2020-07-14" />
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.2" />
+    <property name="file.separator" value="\" />
+    <property name="basedir" value="C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline" />
+    <property name="eclipse.pdebuild.home" value="C:\Users\Sgamo\Desktop\eclipse\plugins\org.eclipse.pde.build_3.10.800.v20200410-1419\." />
+    <property name="java.vm.compressedOopsMode" value="32-bit" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="ant.java.version" value="14" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="user.script" value="" />
+    <property name="test.report.dir" value="C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\testreport" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="14.0.2+12-46" />
+    <property name="user.name" value="Sgamo" />
+    <property name="ant.file" value="C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\build.xml" />
+    <property name="path.separator" value=";" />
+    <property name="os.version" value="10.0" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.project.invoked-targets" value="compile,clean,makedir,junit,jar,main" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="ant.file.type.Calculator" value="file" />
+    <property name="dist.dir" value="C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\dist" />
+    <property name="ant.core.lib" value="C:\Users\Sgamo\Desktop\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib\ant.jar" />
+    <property name="build.dir" value="C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\bin" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="java.io.tmpdir" value="C:\Users\Sgamo\AppData\Local\Temp\" />
+    <property name="java.version" value="14.0.2" />
+    <property name="user.dir" value="C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="C:\Users\Sgamo\Desktop\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239" />
+    <property name="lib.dir" value="C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\lib" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.8 compiled on May 10 2020" />
+    <property name="eclipse.pdebuild.scripts" value="C:\Users\Sgamo\Desktop\eclipse\plugins\org.eclipse.pde.build_3.10.800.v20200410-1419\scripts" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python\Scripts\;C:\Python\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-14.0.2\bin;C:\apache-ant-1.10.9\bin;C:\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\Program Files\Graphviz 2.44.1\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\HP\Common\HPDestPlgIn\;C;C:\Python\Scripts\;C:\Python\;C:\Users\Sgamo\AppData\Local\Microsoft\WindowsApps;C:\Users\Sgamo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\bin;;C:\gradle-6.7\bin;C:\Users\Sgamo\AppData\Roaming\npm;C:\Program Files (x86)\HP\Common\HPDestPlgIn\;C:\w64devkit\bin;;." />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="java.vm.version" value="14.0.2+12-46" />
+    <property name="ant.file.Calculator" value="C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\build.xml" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="docs.dir" value="C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\docs" />
+    <property name="java.class.version" value="58.0" />
+    <property name="src.dir" value="C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\src" />
+    <property name="ant.project.default-target" value="main" />
+  </properties>
+  <testcase classname="TestCalculator" name="testmultiplicar" time="0.004" />
+  <testcase classname="TestCalculator" name="testrestar" time="0.001" />
+  <testcase classname="TestCalculator" name="testsumar2" time="0.001" />
+  <testcase classname="TestCalculator" name="testsumar" time="0.0" />
+  <testcase classname="TestCalculator" name="testrestar2" time="0.0" />
+  <testcase classname="TestCalculator" name="testdividir" time="0.0" />
+  <testcase classname="TestCalculator" name="testdividir2" time="0.0" />
+  <testcase classname="TestCalculator" name="testmultiplicar2" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
